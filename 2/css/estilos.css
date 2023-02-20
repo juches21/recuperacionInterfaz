@@ -1,0 +1,31 @@
+.wrapper {
+   
+    border-radius: 5px;
+    background-color: #fffffe;
+}
+.pane {
+  
+    border-radius: 5px;
+    padding: 20px; 
+    margin: 20px;
+    text-align: center;
+    
+   
+    
+ 
+}
+.wrapper > div {
+    
+    border-radius: 5px;
+    background-color: #26a8ff;
+    padding: 20px; 
+    margin-top: 30px;
+    
+    color: aliceblue;
+ 
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+}

@@ -1,0 +1,20 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^21.2.2",
+    "mongoose": "^6.9.0",
+    "node-fetch": "^2.6.8",
+    "photon": "^4.0.0",
+    "shell": "^0.5.1",
+    "xel": "^0.19.0"
+  }
+}

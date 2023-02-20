@@ -1,0 +1,43 @@
+{
+    "films": [{
+            "id": 1,
+            "title": "Star Trek: The motion picture",
+            "year": "1979",
+            "director_id": 1
+        },
+        {
+            "id": 2,
+            "title": "Star Trek II: The wrath of Khan",
+            "year": "1982",
+            "director_id": 2
+        },
+        {
+            "id": 3,
+            "title": "Star Trek III: The search of Spock",
+            "year": "1984",
+            "director_id": 3
+        },
+        {
+            "id": 4,
+            "title": "Star Trek IV: The voyage home",
+            "year": "1986",
+            "director_id": 3
+        }
+    ],
+    "directors": [{
+            "id": 1,
+            "name": "Robert Wise",
+            "films": [1]
+        },
+        {
+            "id": 2,
+            "name": "Nicholas Meyer",
+            "films": [2]
+        },
+        {
+            "id": 3,
+            "name": "Leonard Nimoy",
+            "films": [3, 4]
+        }
+    ]
+}
